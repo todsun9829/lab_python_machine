@@ -1,0 +1,14 @@
+import numpy
+
+speed = [10,20,30,88,121,86,113,87,94,78,77,20,10]
+age = numpy.random.uniform(0.0, 120.00, 300)
+
+mean = numpy.mean(speed)
+std = numpy.std(speed)
+per25 = numpy.percentile(age, 25)
+per75 = numpy.percentile(age, 75)
+
+#print(mean)
+#print(std)
+print(per25)
+print(per75)
